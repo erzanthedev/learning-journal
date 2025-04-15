@@ -41,43 +41,43 @@ span {
   padding: 5.4375em 1.25em 1.5625em;
 }
 
-.hero-date,
-.hero-title,
-.hero-text {
+.hero__date,
+.hero__title,
+.hero__text {
   color: #fff;
 }
 
-.hero-date {
+.hero__date {
   font-size: 0.75rem; /* 12px */
 }
 
-.hero-title {
+.hero__title {
   margin-block: 0.25em;
 }
 
-.hero-text {
+.hero__text {
   margin-block: 0;
 }
 
 /* Blog */
 
-.blog {
+.blogs__item {
   padding: 2.56em 1.25em 0;
 }
 
-.blog-img {
+.blogs__img {
   width: 100%;
 }
 
-.blog-date {
+.blogs__date {
   font-size: 0.89rem; /* 14.17px */
 }
 
-.blog-title {
+.blogs__title {
   margin-block: 0.375em;
 }
 
-.blog-text {
+.blogs__text {
   margin-block: 0;
   color: #505050;
 }
