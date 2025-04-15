@@ -1,3 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightblue;
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* Typography */
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem; /* 32px */
+  line-height: 1.08;
+  letter-spacing: -0.5px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem; /* 16px */
+  line-height: 1.3;
+  letter-spacing: 0%;
+}
+
+span {
+  font-weight: 400;
+}
+
+/* Hero */
+
+.hero {
+  background: url(../images/hero-image.png);
+  background-size: cover;
+  padding: 5.4375em 1.25em 1.5625em;
+}
+
+.hero-date,
+.hero-title,
+.hero-text {
+  color: #fff;
+}
+
+.hero-date {
+  font-size: 0.75rem; /* 12px */
+}
+
+.hero-title {
+  margin-block: 0.25em;
+}
+
+.hero-text {
+  margin-block: 0;
 }
