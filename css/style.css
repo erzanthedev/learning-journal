@@ -7,6 +7,13 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
+footer {
+  background-color: #202020;
+  text-align: center;
+  padding: 2.31em 9.56em;
+  margin-top: 2.69em;
+}
+
 /* Typography */
 
 h1 {
@@ -84,10 +91,28 @@ span {
   color: #505050;
 }
 
+/* Footer */
+
+.footer-title,
+.copyright {
+  font-size: 0.75rem; /* 12px */
+}
+
+.footer-title {
+  color: #ececec;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.copyright {
+  color: #d7d7d7;
+  font-weight: 400;
+}
+
 /* Buttons */
 
 .more__btn {
-  font-family: Source Sans Pro;
+  font-family: inherit;
   font-weight: 700;
   font-size: 1rem; /* 16px */
   line-height: 1;
