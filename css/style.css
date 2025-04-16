@@ -81,3 +81,16 @@ span {
   margin-block: 0;
   color: #505050;
 }
+
+/* Buttons */
+
+.more__btn {
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  font-size: 1rem; /* 16px */
+  line-height: 1;
+  background-color: #fff;
+  border: none;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
