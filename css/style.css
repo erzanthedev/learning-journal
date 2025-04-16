@@ -40,7 +40,6 @@ span {
   background-size: cover;
   padding: 5.4375em 1.25em 1.5625em;
 }
-
 .hero__date,
 .hero__title,
 .hero__text {
@@ -60,9 +59,12 @@ span {
 }
 
 /* Blog */
+.blogs {
+  padding-inline: 1.25em;
+}
 
 .blogs__item {
-  padding: 2.56em 1.25em 0;
+  margin: 2.56em 0 0;
 }
 
 .blogs__img {
