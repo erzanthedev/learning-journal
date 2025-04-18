@@ -71,7 +71,11 @@ span {
 
 /* Blog */
 .blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1em;
   width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 2.125em;
 }
