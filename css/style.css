@@ -14,6 +14,10 @@ footer {
   margin-top: 2.69em;
 }
 
+img {
+  width: 100%;
+}
+
 /* Typography */
 
 h1 {
@@ -67,15 +71,17 @@ span {
 
 /* Blog */
 .blogs {
-  padding-inline: 1.25em;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2.125em;
 }
 
 .blogs__item {
-  margin: 2.56em 0 0;
+  margin-bottom: 2.56em;
 }
 
 .blogs__img {
-  width: 100%;
+  margin-bottom: 0.875em;
 }
 
 .blogs__date {
@@ -86,7 +92,7 @@ span {
   margin-block: 0.375em;
 }
 
-.blogs__text {
+.blogs__preview {
   margin-block: 0;
   color: #505050;
 }
