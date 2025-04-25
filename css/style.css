@@ -7,6 +7,13 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+  padding: 1.125em 1.5em;
+}
+
 footer {
   background-color: #202020;
   text-align: center;
@@ -41,6 +48,45 @@ p {
 
 span {
   font-weight: 400;
+}
+
+/* Header/Nav */
+
+.header__logo {
+  width: 23px;
+  height: 23px;
+}
+
+.header__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.header__title,
+.nav__list {
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2em;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__link {
+  color: #090909;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
 /* Hero */
